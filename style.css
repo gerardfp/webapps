@@ -1,0 +1,64 @@
+h1 {
+	background-color: #135e96;
+	color: white;
+	padding: 16px;
+}
+
+a {
+	background-color: #c9356e;
+	color: white;
+	padding: 16px;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	background-color: #a9154e;
+}
+
+h2 {
+	color: #135e96;
+	padding-top: 64px;
+	border-bottom: 1px solid #135e96;
+}
+
+p {
+	background-color: #e1e1e9;
+	padding:32px;
+	border-radius: 4px;
+}
+
+h3 {
+	background-color: #f1f1f1;
+	border: 1px solid #919191;
+	border-left: 4px solid #46b450;
+	padding: 16px;
+}
+
+input, textarea {
+	display: block;
+	padding: 16px;
+}
+
+input[type=submit] {
+	background-color: #46b450;
+	color: white;
+	padding: 16px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #269430;
+}
+
+input[type=submit]:disabled {
+	background-color: gray;
+}
+
+label {
+	margin-top: 32px;
+}
