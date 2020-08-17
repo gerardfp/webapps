@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
-<h1>MY BLOG!</h1>
-<a href='new_post.php'>Crear nuevo post</a>
+<h1>&#128221; MY BLOG</h1>
+<a href='new_post.php'>Escribir post</a>
 
 <?php
 $mysqli = new mysqli("localhost", "my_user", "my_password", "my_database");

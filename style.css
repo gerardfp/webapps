@@ -19,12 +19,12 @@ a:hover {
 
 h2 {
 	color: #135e96;
-	padding-top: 64px;
+	padding-top: 32px;
 	border-bottom: 1px solid #135e96;
 }
 
 p {
-	background-color: #e1e1e9;
+	background-color: #f1f1f1;
 	padding:32px;
 	border-radius: 4px;
 }
