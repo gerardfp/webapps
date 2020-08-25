@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>MY BLOG</title>
 <link rel="stylesheet" href="style.css">
 
-<form id="form" action="insert_post.php" method="get">
+<form id="form" action="insert_post.php" method="GET">
         <label for="title">Titulo:</label>
         <input id="title" type="text" name="title" size="46" required/>
         <label for="content">Contenido:</label>

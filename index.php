@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>MY BLOG</title>
 <link rel="stylesheet" href="style.css">
 
 <h1>&#128221; MY BLOG</h1>
@@ -6,10 +9,10 @@
 <?php
 $mysqli = new mysqli("localhost", "my_user", "my_password", "my_database");
 
-$result = $mysqli->query("SELECT * FROM posts");
+$resultado = $mysqli->query("SELECT * FROM posts");
 
-while ($row = $result->fetch_assoc()) {
-    echo "<h2>" . $row['title'] . "</h2>\n";
-    echo "<p>" . $row['content'] . "</p>\n";
+while ($fila = $resultado->fetch_assoc()) {
+    echo "<h2>" . $fila['title'] . "</h2>\n";
+    echo "<p>" . $fila['content'] . "</p>\n";
 }
 ?>
